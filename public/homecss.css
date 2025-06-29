@@ -1,0 +1,325 @@
+
+input,textarea{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1em;
+  outline: none;
+  transition: border 0.3s; }
+
+
+
+
+.navbar-brand{
+
+    color: aliceblue;
+    font-size:larger ;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.box{
+    margin-top: 50px;
+    display: none;
+}
+
+.boxlist p {
+  word-break: break-word;      /* Break long words */
+  white-space: pre-wrap;       /* Respect line breaks and wrap text */
+  overflow-wrap: break-word;   /* Break long words if needed */
+  max-width: 100%;             /* Prevent overflow horizontally */
+}
+
+.boxlist {
+  overflow: hidden;
+  word-break: break-word;
+  /* Optional: add padding or max-width if needed */
+}
+
+.submit{
+
+ height: 40px;
+ min-width: 50px;
+max-width: 100%;
+position: relative;
+left: 50%;
+margin-top: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+
+@media (max-width: 991.98px){
+
+
+
+.nav-btn{
+padding: 4px;
+font-size: small;
+   
+}
+
+
+
+#postsList{
+   width: 100%;
+    height: 100%;
+    display: flex;
+   justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+
+}
+   
+#postsList >li{
+    margin-left: -200px;
+    margin-top: 20px;
+}
+
+.box{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+    width: 100%;
+    margin-top: 20px;
+
+  
+}
+
+
+
+
+
+
+.boxlist > li > button > a{
+    text-decoration: none;
+    
+    
+}
+
+.textarea{
+    height: 60vh;
+   min-height: 100%;
+}
+
+.submit{
+margin-left: -50px;
+}
+
+.TITLE{
+    font-size:25PX;
+}
+
+.txt{
+  
+    margin-left: 60px;
+    text-align: center;
+    font-size: small;
+    margin-top: -50px;
+    width: 400px;
+    max-width: 100%;
+    
+}
+
+.txtpara{
+  display: none;
+ 
+}
+
+.txtmob{
+width: 90%;
+margin-left: 20px;
+font-size: medium;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 600;
+
+}
+
+.create{
+
+    display: none;
+}
+
+.createmob{
+    margin-top: 20px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.boxlist >p {
+  
+   
+text-align: center;
+position: relative;
+left: 30%;
+font-size: medium;
+width: 70%;
+padding: 10px;
+
+}
+
+
+
+.boxlist > h2{
+ text-align: center;
+ position: relative;
+ left: 15%;
+}
+
+
+.back{
+    position: relative;
+    background-color: rgba(61, 21, 21, 0.844);
+    color: aliceblue;
+    font-size: small;
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    max-height: 100%;
+    max-width: 100%;
+border: none;
+border-radius: 20%;
+font-family: 'Times New Roman', Times, serif;
+left: 65%;
+margin-top: 35px;
+padding-top: 2px;
+   
+
+}
+
+
+.boxlist > button {
+    position: relative;
+    left: 20%;
+    width: 20px;
+
+    
+}
+
+.boxlist > small {
+    position: static !important;
+    left: 0 !important;
+    top: 0 !important;
+    display: block !important;
+    width: 100%;
+    text-align: center;
+    margin: 0.5em 0;
+}
+
+}
+
+@media (min-width: 1024px) {
+
+  
+
+.nav-btn{
+position: relative;
+left: 50px;
+font-family: 'Times New Roman', Times, serif;
+   
+}
+
+#postsList{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+
+
+
+}
+
+#postsList >li{
+    margin-left: -200px;
+    margin-top: 20px;
+}
+
+.box{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 20px;
+    width: 100%;
+  
+}
+
+
+.textarea{
+    height: 70vh;
+   min-height: 100%;
+}
+
+
+
+
+.boxlist >p {
+  
+   
+text-align: center;
+position: relative;
+left: 15%;
+
+}
+
+.boxlist > button {
+    position: relative;
+    left: 15%;
+    
+}
+
+
+.boxlist > small{
+    position: relative;
+    left: 15%;
+   top: 3%;
+
+}
+
+.back{
+    position: relative;
+    background-color: rgba(61, 21, 21, 0.844);
+    color: aliceblue;
+    font-size: small;
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    max-height: 100%;
+    max-width: 100%;
+border: none;
+border-radius: 20%;
+font-family: 'Times New Roman', Times, serif;
+left: 85%;
+margin-top: 25px;
+padding-top: 2px;
+   
+
+}
+
+.back:hover {
+    background-color: rgba(61, 21, 21, 0.852);
+    color: aliceblue;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: ease-out  ;
+    
+
+}
+
+
+ .txtmob{
+    display: none;
+ }
+ .createmob{
+    display: none;
+ }
+
+
+}
